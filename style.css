@@ -1,0 +1,722 @@
+body{
+    margin: 0;
+    font-family: "Open Sans-ExtraBold", Helvetica;
+}
+
+/* HOME START */
+        
+.home {
+    background-color: #272727;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: #272727;
+    overflow: hidden;
+    width: 360px;
+    height: 1200px;
+    position: relative;
+  }
+  
+  .home .navigation {
+    position: absolute;
+    width: 380px;
+    height: 42px;
+    top: 1158px;
+    left: 0;
+  }
+  
+  .home .overlap-group {
+    position: relative;
+    width: 360px;
+    height: 42px;
+    background-color: #121212;
+  }
+  
+  .home .overlap {
+    position: absolute;
+    width: 35px;
+    height: 23px;
+    top: 9px;
+    left: 17px;
+  }
+  
+  .home .image {
+    width: 26px;
+    height: 23px;
+    left: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .text-wrapper {
+    width: 26px;
+    top: 6px;
+    left: 5px;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    width: 35px;
+    top: 3px;
+    left: 0;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .home .overlap-2 {
+    position: absolute;
+    width: 35px;
+    height: 27px;
+    top: 7px;
+    left: 86px;
+  }
+  
+  .home .text-wrapper-3 {
+    width: 32px;
+    top: 8px;
+    left: 2px;
+    color: #ffffff;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .img {
+    width: 27px;
+    height: 27px;
+    left: 3px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .about {
+    width: 35px;
+    top: 5px;
+    left: 0;
+    color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .overlap-3 {
+    position: absolute;
+    width: 46px;
+    height: 29px;
+    top: 6px;
+    left: 156px;
+  }
+  
+  .home .text-wrapper-4 {
+    width: 26px;
+    top: 9px;
+    left: 12px;
+    color: #ffffff;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-2 {
+    width: 46px;
+    height: 29px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .trips {
+    width: 35px;
+    top: 6px;
+    left: 6px;
+    color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .overlap-4 {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+    top: 6px;
+    left: 303px;
+  }
+  
+  .home .text-wrapper-5 {
+    width: 40px;
+    top: 9px;
+    left: 0;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-3 {
+    width: 29px;
+    height: 29px;
+    left: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .contact {
+    position: absolute;
+    width: 35px;
+    top: 6px;
+    left: 2px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .home .overlap-5 {
+    position: absolute;
+    width: 35px;
+    height: 28px;
+    top: 4px;
+    left: 239px;
+  }
+  
+  .home .text-wrapper-6 {
+    width: 31px;
+    top: 11px;
+    left: 2px;
+    color: #ffffff;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-4 {
+    width: 28px;
+    height: 28px;
+    left: 2px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .games {
+    width: 35px;
+    top: 8px;
+    left: 0;
+    color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .overlap-6 {
+    position: absolute;
+    width: 346px;
+    height: 202px;
+    top: 933px;
+    left: 13px;
+  }
+  
+  .home .phinisi {
+    width: 246px;
+    height: 200px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .home .text-wrapper-7 {
+    width: 112px;
+    top: 106px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    left: 0;
+  }
+  
+  .home .p {
+    position: absolute;
+    width: 156px;
+    top: 133px;
+    left: 0;
+    font-family: "Open Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-8 {
+    position: absolute;
+    width: 50px;
+    top: 183px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-5 {
+    width: 163px;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .about-2 {
+    width: 56px;
+    top: 182px;
+    left: 182px;
+    color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .komodo {
+    position: absolute;
+    width: 346px;
+    height: 202px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .text-wrapper-9 {
+    position: absolute;
+    width: 125px;
+    top: 103px;
+    left: 182px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-10 {
+    position: absolute;
+    width: 156px;
+    top: 130px;
+    left: 182px;
+    font-family: "Open Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-11 {
+    position: absolute;
+    width: 50px;
+    top: 183px;
+    left: 181px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-6 {
+    width: 153px;
+    height: 99px;
+    left: 181px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .line {
+    width: 1px;
+    height: 194px;
+    top: 0;
+    left: 172px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .about-3 {
+    width: 56px;
+    top: 184px;
+    left: 0;
+    color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .pink-beach {
+    position: absolute;
+    width: 364px;
+    height: 202px;
+    top: 437px;
+    left: 0;
+  }
+  
+  .home .overlap-7 {
+    position: relative;
+    width: 360px;
+    height: 202px;
+    background-image: url(./img/image-13.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home .text-wrapper-12 {
+    position: absolute;
+    width: 91px;
+    top: 101px;
+    left: 257px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-13 {
+    position: absolute;
+    width: 206px;
+    top: 131px;
+    left: 139px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .manta {
+    position: absolute;
+    width: 364px;
+    height: 247px;
+    top: 655px;
+    left: 0;
+  }
+  
+  .home .overlap-8 {
+    position: relative;
+    width: 360px;
+    height: 247px;
+  }
+  
+  .home .image-7 {
+    width: 360px;
+    height: 199px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .group {
+    position: absolute;
+    width: 186px;
+    height: 97px;
+    top: 150px;
+    left: 16px;
+    background-color: #171717;
+  }
+  
+  .home .text-wrapper-14 {
+    position: absolute;
+    width: 112px;
+    top: 158px;
+    left: 29px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-15 {
+    position: absolute;
+    width: 156px;
+    top: 187px;
+    left: 29px;
+    font-family: "Open Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .overlap-9 {
+    position: absolute;
+    width: 366px;
+    height: 384px;
+    top: 33px;
+    left: 0;
+  }
+  
+  .home .isles {
+    position: absolute;
+    width: 340px;
+    height: 159px;
+    top: 225px;
+    left: 14px;
+  }
+  
+  .home .overlap-10 {
+    position: absolute;
+    width: 162px;
+    height: 97px;
+    top: 0;
+    left: 0;
+    background-color: #4a4a4a;
+  }
+  
+  .home .div-wrapper {
+    position: absolute;
+    width: 73px;
+    height: 15px;
+    top: 71px;
+    left: 10px;
+    background-color: #e8e8e8;
+  }
+  
+  .home .text-wrapper-16 {
+    position: absolute;
+    width: 32px;
+    top: 2px;
+    left: 20px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-17 {
+    position: absolute;
+    width: 146px;
+    top: 13px;
+    left: 8px;
+    font-family: "Open Sans-CondensedBold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.7px;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-18 {
+    position: absolute;
+    width: 146px;
+    top: 28px;
+    left: 8px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-8 {
+    width: 166px;
+    height: 97px;
+    left: 166px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .it-is-truly {
+    position: absolute;
+    width: 233px;
+    top: 117px;
+    left: 49px;
+    font-family: "Open Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .title {
+    position: absolute;
+    width: 366px;
+    height: 312px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .overlap-11 {
+    position: absolute;
+    width: 360px;
+    height: 205px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/image-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home .text-wrapper-19 {
+    position: absolute;
+    width: 168px;
+    top: 70px;
+    left: 24px;
+    font-family: "Open Sans-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-20 {
+    position: absolute;
+    width: 289px;
+    top: 111px;
+    left: 24px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .about-4 {
+    width: 71px;
+    top: 294px;
+    left: 25px;
+    color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .header {
+    position: absolute;
+    width: 360px;
+    height: 33px;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+  }
+  
+  .home .generatedtext {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    top: 9px;
+    left: 148px;
+  }
+  
+  .home .group-2 {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: 14px;
+    left: 14px;
+  }
+  
+  .home .line-2 {
+    width: 10px;
+    height: 1px;
+    top: -1px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-3 {
+    width: 10px;
+    height: 1px;
+    top: 2px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-4 {
+    width: 10px;
+    height: 1px;
+    top: 5px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+/* HOME END /*
